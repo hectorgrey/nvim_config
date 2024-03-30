@@ -1,4 +1,4 @@
-vim.cmd([[colorscheme desert]])
+vim.cmd([[colorscheme gruvbox]])
 
 local opt = vim.opt
 
