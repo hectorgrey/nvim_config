@@ -1,5 +1,8 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
+	dependencies = {
+		"nvim-treesitter/nvim-treesitter-textobjects"
+	},
 	opts = {
 		highlight = { enable = true },
 		indent = { enable = true },
@@ -17,6 +20,7 @@ return {
 			"luap",
 			"markdown",
 			"markdown_inline",
+			"odin",
 			"python",
 			"query",
 			"regex",
