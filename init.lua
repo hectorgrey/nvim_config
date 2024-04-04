@@ -1,3 +1,4 @@
+require("user.keymap")
 require("user.lazy")
 require("user.options")
 
