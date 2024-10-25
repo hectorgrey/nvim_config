@@ -17,18 +17,18 @@ return {
 		})
 
 		cmp.setup.cmdline({"/", "?"}, {
-			mapping = cmd.mapping.preset.cmdline(),
+			mapping = cmp.mapping.preset.cmdline(),
 			sources = cmp.config.sources({
 				{ name = "buffer" },
-			},
+			})
 		})
 
 		cmp.setup.cmdline({":"}, {
-			mapping = cmd.mapping.preset.cmdline(),
+			mapping = cmp.mapping.preset.cmdline(),
 			sources = cmp.config.sources({
 				{ name = "path" },
 				{ name = "cmdline" },
-			},
+			}),
 		})
 	end
 }
