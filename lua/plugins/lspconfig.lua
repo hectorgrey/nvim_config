@@ -7,5 +7,11 @@ return {
 				["rust-analyzer"] = {},
 			}
 		})
+		lspconfig.clangd.setup{}
+		lspconfig.lua_langauge_server.setup({
+			settings = {
+				["lua-language-server"] = {},
+			}
+		})
 	end,
 }
