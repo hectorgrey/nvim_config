@@ -1,7 +1,5 @@
 local opts = vim.opt
 
-opts.backup = true
-opts.backupdir = "../backup//"
 opts.breakindent = true
 opts.cdhome = true
 opts.clipboard = "unnamedplus"
