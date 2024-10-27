@@ -8,7 +8,7 @@ return {
 			}
 		})
 		lspconfig.clangd.setup{}
-		lspconfig.lua_langauge_server.setup({
+		lspconfig.lua_ls.setup({
 			settings = {
 				["lua-language-server"] = {},
 			}
